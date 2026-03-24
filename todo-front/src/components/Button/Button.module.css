@@ -1,0 +1,25 @@
+.btn {
+    display: inline-flex;
+    padding: 1rem 2rem;
+    background-color: rgb(216, 191, 216);
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.btn.isSelected {
+    background-color: #c27fc2;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: rgba(230, 199, 230, 0.801);
+    color: #fff;
+}
+
+.btn:active {
+    background-color: #b175b1;
+    color: #fff;
+}

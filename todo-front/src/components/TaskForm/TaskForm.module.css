@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.field {
+    display: block;
+    width: 50rem;
+    margin: auto;
+    padding: 0.8rem 1.2rem;
+    font-size: 2rem;
+    color: #836363;
+    background-color: rgb(235, 249, 254);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.field:focus {
+    outline: none;
+    color: #b175b1;
+}
+
+.field::placeholder {
+    color: rgb(195, 181, 195);
+}

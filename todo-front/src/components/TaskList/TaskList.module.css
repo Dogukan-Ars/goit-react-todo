@@ -1,0 +1,22 @@
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.listItem+.listItem {
+    border-top: 1px solid rgb(216, 191, 216);
+}
+
+.loading,
+.error,
+.empty {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-style: italic;
+}
+
+.error {
+    color: #e74c3c;
+}

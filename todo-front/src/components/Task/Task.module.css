@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.text {
+    color: #574057;
+    flex-grow: 1;
+    font-size: larger;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #b5b4b4;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.edit_icon {
+    background-color: inherit;
+    color: #c028fc;
+}
+
+.delete_icon {
+    background-color: inherit;
+    color: #ff0080;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}

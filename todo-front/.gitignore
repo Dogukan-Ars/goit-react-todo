@@ -22,16 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-
-# Node modules
-todo-front/node_modules/
-todo-api/node_modules/
-
-# Environment files
-todo-front/.env
-todo-api/.env
-
-# Build klasörleri
-todo-front/build/
-todo-front/dist/

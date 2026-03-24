@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #d8bfd8;
+    padding: 10px;
+    font-size: 7rem;
+    opacity: 0.6;
+    margin: 3rem 1rem;
+    user-select: none;
+}
